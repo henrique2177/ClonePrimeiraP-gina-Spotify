@@ -1,0 +1,320 @@
+html,body,#home{
+    height: 100%;
+    width: 100%;
+   
+   
+   
+}
+
+body{
+
+    height: 660px;
+    background: url(/assets/images/capa.png),
+                 url(/assets/images/ruido.png),
+                 linear-gradient(50deg, #ff4169, #7c26f8);
+                 background-attachment: fixed;
+     font-family: Helvetica,Arial, sans-serif;            
+}
+
+
+
+nav.navbar-transparente{
+    background: rgba(0,0,0,0.5);
+    height: 70px;
+    
+}
+
+
+
+.navbar-light .navbar-nav .nav-link:hover {
+        color: white;
+}
+
+.navbar-light .navbar-toggler{
+    color: rgb(0,0 ,0,.5);
+    border-color: rgba(0,0,0,.1);
+   
+}
+
+.capa{
+    text-align: center;
+    margin-top:auto;
+   
+   
+}    
+
+.capa h1{
+    font-weight: 900;
+    letter-spacing: 0.05em;
+    margin-bottom: 50px;
+    color: white;
+   
+}
+
+.capa .btn-custom{
+
+    color: white;
+    border-radius: 500px;
+    -webkit-border-radius:500px;
+    -moz-border-radius:500px;
+    text-transform: uppercase;
+    transition: background 0.4s color 0.4s;
+    padding:10px 15px ;
+
+}
+
+.capa .btn-roxo{
+    background: #7c25f8;
+   
+   
+}
+.capa .btn-roxo:hover {
+    background: #6207e3;
+    color: white;
+}
+
+
+.capa .btn-branco{
+    border: 2px solid white;
+    
+}
+.capa .btn-branco:hover {
+    background-color: white;
+    color: black;
+}
+
+.carousel-control-prev, .carousel-control-next{
+    width: 5%;
+   margin-top: 100px;
+}
+
+#secoes{
+    background: white;
+    padding-top:20px ;
+    padding-bottom: 20px;
+    
+  
+}
+
+
+.albuns{
+    padding: 10px 0px;
+    
+}
+
+#secoes h2{
+    font-size: 3.2em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+    color: #7c25f6;
+    margin-top: 80px;
+    margin-bottom: 20px;
+      
+}
+
+#secoes h3{
+    margin-top: 5px;
+    font-size: 2.5em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+    color: #7c25f6;
+    
+}
+
+#recursos{
+    margin-top: 20px;
+}
+
+#recursos h2{
+    font-size: 70px;
+    color: white;
+}
+
+#recursos h3 {
+    margin-top: 20px;
+    color: #9bf0e1;
+}
+
+#recursos p{
+    color: white;
+    font-size: 1em;
+}
+
+#recursos img{
+    margin-top: -50px;
+    transform: rotate(22deg);
+   margin-left: 30px;
+   
+   
+ }
+
+footer{
+
+    margin-top: 80px;
+    background: black;
+    color: white;
+   font-size: 15px;
+  
+   }
+
+   footer h4, img{
+       margin-top: 50px;
+   }
+
+   footer h4{
+       color: #919496;
+       font-size: 0.8em;
+       text-transform: uppercase;
+   }
+
+   footer .navbar-nav a{
+       color: white;
+       font-size: 0.8em;
+      
+
+   }
+
+   footer .navbar-nav a:hover{
+    color: #9bf0e1;
+    text-decoration: none;
+
+}
+
+ 
+
+/*// Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+    .btn-custom{
+        margin: 10px 15px;
+    }
+
+    #secoes h2{
+        margin-top: -40px;
+    }
+    footer {
+        columns: 3;
+        margin-top: 5px;
+       
+       
+       
+       
+    }
+
+    footer .responsive{
+        margin-top: -0px;
+    }
+  
+    
+ }
+
+/*// Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+     .capa h1 {
+        font-size: 3em;
+    }
+    .btn-custom{
+        margin: 10px 15px;
+    }
+
+    #secoes h2{
+        margin-top: -40px;
+    }
+    footer{
+        columns: 6;
+        padding: 5px;
+        
+}
+
+footer .responsive{
+    margin-top: -0px;
+}
+
+footer .spot{
+    width: 155px;
+    
+}
+footer.fafa{
+
+    margin-left: -15px;
+}
+}
+    
+  
+ 
+ 
+
+/*// Medium devices (tablets, 768px and up)*/
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    body{
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .capa h1  {
+        font-size: 4em;
+    }
+    .btn-custom{
+        margin: 10px 15px;
+    }
+
+    #secoes h2{
+        margin-top: 30px;
+        font-size:35px;
+    }
+
+    #secoes{
+        
+        width: 100%;
+    }
+
+    footer{
+               
+                width:100%;
+                columns: md -4px;
+    }
+
+    footer .spot{
+        width: 105px;
+        
+    }
+
+ 
+ }
+
+/*// Large devices (desktops, 992px and up)*/
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+   
+    .capa h1  {
+        font-size: 5em;
+    }
+
+    body{
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+   
+
+                       
+ }
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+
+    body{
+        width: 100%;
+        overflow-x:  hidden;
+    }
+  
+    .capa h1  {
+        font-size: 6em;
+    }
+
+    #secoes h2{
+       
+        font-size:50px;
+    }
+}
